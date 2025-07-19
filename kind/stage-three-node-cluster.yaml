@@ -21,17 +21,4 @@ nodes:
     listenAddress: "0.0.0.0"
     protocol: tcp
 - role: worker
-  extraPortMappings:
-  - containerPort: 80
-    hostPort: 82
-    listenAddress: "0.0.0.0"
-    protocol: tcp
-  - containerPort: 8000
-    hostPort: 8002
-    listenAddress: "0.0.0.0"
-    protocol: tcp
-  - containerPort: 8080
-    hostPort: 8003
-    listenAddress: "0.0.0.0"
-    protocol: tcp
 
