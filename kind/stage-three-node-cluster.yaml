@@ -20,5 +20,3 @@ nodes:
     hostPort: 30002
     listenAddress: "0.0.0.0"
     protocol: tcp
-- role: worker
-
